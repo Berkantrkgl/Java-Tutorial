@@ -24,14 +24,14 @@ public class Main {
     public static void main(String[] args) {
         /*
          * To use the Scanner class, create an object of the class and use any of the 
-         * available methods found in the Scanner class documentation. 
-         * In our example, we will use the nextLine() method, which is used to read a complete line
-         */
-        Scanner scan = new Scanner(System.in);
-
-        System.out.print("Enter your name : ");
-        String name = scan.nextLine();
-        System.out.println("Welcome " + name);
+         * available methods found in the Scanner class documentation.         
+         * In our example, we will use the nextLine() method, which is used to read a complete line        
+          */               
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.print("Enter your name : ");
+            String name = scan.nextLine();
+            System.out.println("Welcome " + name);
+        }
 
 
     }

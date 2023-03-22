@@ -4,9 +4,9 @@ Hello everyone. This is a small Java-Tutorial repository I made to refresh my ja
 
 ## Practice with Git-Github
 ***
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-![Alt text][id]
+<p align="center">
+<img src="https://octodex.github.com/images/dojocat.jpg" width="300">
+</p>
 
 + Another important purpose of this project is to develop my knowledge of Git-Github, which I have just learned, on an example and simple project.
 
